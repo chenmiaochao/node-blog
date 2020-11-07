@@ -1,0 +1,188 @@
+2019-01-20 15:39:37: 假装出错 1547969977021
+2019-01-20 15:39:37: 假装出错 1547969977480
+2019-01-20 15:39:37: 假装出错 1547969977884
+2019-01-20 15:39:38: 假装出错 1547969978472
+2020-11-07 18:13:52: 假装出错 1604740432371
+2020-11-07 18:16:31: 假装出错 1604740591748
+2020-11-07 18:21:21: 假装出错 1604740881139
+2020-11-07 18:21:42: 假装出错 1604740902032
+2020-11-07 18:21:47: 假装出错 1604740907094
+2020-11-07 18:23:03: 假装出错 1604740983108
+2020-11-07 18:23:03: 假装出错 1604740983638
+2020-11-07 18:23:04: 假装出错 1604740984420
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+SyntaxError: Error parsing /Applications/MAMP/htdocs/node-blog/pm2-test/package.json: Unexpected token } in JSON at position 283
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:257:20)
+    at readPackageScope (internal/modules/cjs/loader.js:282:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1169:17)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
