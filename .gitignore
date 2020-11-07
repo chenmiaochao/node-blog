@@ -1,0 +1,10 @@
+
+blog-express/node_modules/@babel/parser/LICENSE
+blog-express/node_modules/*
+blog-express/node_modules/.bin/acorn
+blog-koa2/node_modules/*
+koa2-test/node_modules/*
+mongodb-test/node_modules/*
+blog-koa2-mongodb/node_modules/*
+*node_modules/
+node_modules/
