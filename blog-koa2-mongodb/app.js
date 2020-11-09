@@ -21,46 +21,6 @@ const user  = require('./routes/user')
 
 const { REDIS_CONF } = require('./conf/db')
 
-//npm install --save @cloudbase/node-sdk
-//https://docs.cloudbase.net/api-reference/server/node-sdk/introduction.html#an-zhuang
-const tcb = require("@cloudbase/node-sdk");
-// 初始化
-const appC = tcb.init({
-  secretId: 'AKIDbx0j3plyY0C8oF6S3QaS4vWqtb7MudOr',
-  secretKey: 'LQM6tPgmb8KE79wXu1sZ1FerrgCS81eQ',
-  env: "hew-6gnlqghu3cfd5ebd"
-});
-//获取db
-const db = appC.database();
-const add01 = async (event, context) => {
-  //选择集合 进行操作
-  const res = await db.collection('db01')
-    .add({
-      category: 'Computer',
-      name: 'Thinking in Java',
-      sailing: true,
-      sales: 100
-    })
-  console.log(res)
-  return {
-    res
-  }
-}
-const getList = async (event, context) => {
-  //选择集合 进行操作
-  const res = await db.collection('db01')
-    .get()
-  console.log(res)
-  return {
-    res
-  }
-}
-
-// add01();
-getList();
-
-// db.collection("db01").get();
-
 
 
 // error handler

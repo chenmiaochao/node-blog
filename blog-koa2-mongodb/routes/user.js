@@ -1,4 +1,5 @@
 const router = require('koa-router')()
+const json = require('koa-json')
 const { login } = require('../controller/user')
 const { SuccessModel, ErrorModel } = require('../model/resModel')
 
@@ -7,6 +8,9 @@ router.prefix('/api/user')
 router.post('/login', async function (ctx, next) {
     const { username, password } = ctx.request.body
     const data = await login(username, password)
+    // const userData = JSON.stringify(data);
+    console.log('routes login data is '+
+    data)
     if (data.username) {
         // 设置 session
         ctx.session.username = data.username
