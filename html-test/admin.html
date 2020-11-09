@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>管理中心</title>
+    <title>マイページ　新規作成｜管理</title>
     <style type="text/css">
         body {
             margin: 0 20px;
@@ -27,17 +27,20 @@
     </style>
 </head>
 <body>
-    <h1 style="border-bottom: 1px solid #ccc; padding-bottom: 10px;">管理中心</h1>
+    <h1 style="border-bottom: 1px solid #ccc; padding-bottom: 10px;">マイページ</h1>
     <p>
-        <a href="/new.html">新建博客</a>
+        <a href="/new.html">ブログを新規作成</a>
+    </p>
+    <p>
+        <a href="/index.html">ブログトップへ</a>
     </p>
     <div style="margin-bottom: 10px;">
         <input id="text-keyword">
-        <button id="btn-search">搜索</button>
+        <button id="btn-search">検索</button>
     </div>
     <table id="table-container">
         <tr>
-            <th>博客标题</th>
+            <th>ブログタイトル</th>
             <th colspan="2">操作</th>
         </tr>
     </table>
@@ -88,7 +91,7 @@
         // 加载数据
         get(url).then(res => {
             if (res.errno !== 0) {
-                alert('数据错误')
+                alert('データエラー')
                 return
             }
 
@@ -98,13 +101,13 @@
                 $tableContainer.append($(`
                     <tr>
                         <td>
-                            <a href="/detail.html?id=${item.id}" target="_blank">${item.title}</a>
+                            <a href="/detail.html?id=${item.id || item._id}" target="_blank">${item.title}</a>
                         </td>
                         <td>
-                            <a href="/edit.html?id=${item.id}">编辑</a>
+                            <a href="/edit.html?id=${item.id || item._id}">編集</a>
                         </td>
                         <td>
-                            <a data-id="${item.id}" class="item-del">删除</a>
+                            <a data-id="${item.id || item._id}" class="item-del">删除</a>
                         </td>
                     </tr>
                 `))
@@ -124,11 +127,11 @@
                 return
             }
 
-            if (confirm('确定删除？')) {
+            if (confirm('本当に削除でいいん？')) {
                 const url = '/api/blog/del?id=' + $target.attr('data-id')
                 post(url).then(res => {
                     if (res.errno !== 0) {
-                        alert('操作错误')
+                        alert('操作エラーやわ')
                         return
                     }
                     location.href = location.href

@@ -13,6 +13,7 @@ if(env === 'dev') {
         port: '3306',
         database: 'myblog'
     }
+    //mongo
 
     //redis
     REDIS_CONF = {
@@ -39,7 +40,7 @@ if(env === 'production') {
     }
 
 }
-console.log(MYSQL_CONF);
+// console.log(MYSQL_CONF);
 module.exports = {
     MYSQL_CONF,
     REDIS_CONF
