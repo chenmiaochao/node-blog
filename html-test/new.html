@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>创建博客</title>
+    <title>ブログを新規作成</title>
     <style type="text/css">
         body {
             margin: 0 20px;
@@ -26,16 +26,16 @@
     </style>
 </head>
 <body>
-    <h1 style="border-bottom: 1px solid #ccc; padding-bottom: 10px;">创建博客</h1>
+    <h1 style="border-bottom: 1px solid #ccc; padding-bottom: 10px;">ブログ新規作成</h1>
     <div>
         <div class="title-wrapper">
-            <input id="text-title">
+            タイトル<input id="text-title">
         </div>
         <div class="content-wrapper">
-            <textarea id="text-content"></textarea>
+            本文<textarea id="text-content"></textarea>
         </div>
         <div>
-            <button id="btn-create">创建</button>
+            <button id="btn-create">作成</button>
         </div>
     </div>
 
@@ -61,7 +61,7 @@
             const title = $textTitle.val().trim()
             const content = $textContent.val().trim()
             if (title === '' || content === '') {
-                alert('标题或内容不能为空')
+                alert('タイトルまたは本文は空ではなりません')
                 return
             }
 
@@ -72,10 +72,10 @@
             }
             post(url, data).then(res => {
                 if (res.errno !== 0) {
-                    alert('操作错误')
+                    alert('操作エラー')
                     return
                 }
-                alert('创建成功')
+                alert('成功')
                 location.href = '/admin.html'
             })
         })

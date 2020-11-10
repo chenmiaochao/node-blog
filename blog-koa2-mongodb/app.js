@@ -21,7 +21,6 @@ const user  = require('./routes/user')
 
 const { REDIS_CONF } = require('./conf/db')
 
-
 const getList = async (event, context) => {
   //选择集合 进行操作
   const res = await db.collection('db01')
