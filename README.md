@@ -1,4 +1,4 @@
-# node-blog
+# node-blog-koa-mongodb
 技術スタック
 
 図：
